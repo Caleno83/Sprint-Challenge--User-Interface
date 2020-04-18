@@ -54,16 +54,50 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    /*A aaded hetre the font size default learned in class*/
+    font-size: 62.5%;
 }
+/*I style the header logo, and nav tabs*/
+header nav .logo {
+    margin-left: -1%;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    margin-right: 4%;
+}
+  
+  header nav a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-top: 2%;
+    margin-right: 1%;
+    padding: 5.5%;
+    color: black;
+  }
+  
+  header .top-image {
+    padding-bottom: 3%;
+  }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    /*Changed size with rem*/
+    font-size: 1.8rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+   /*I changed color opacity using rgba*/
+    color: rgba(0,0,0,0.9);
 }
 
 p {
     line-height: 1.4;
+    /*Changed size with rem*/
+    font-size: 1.6rem;
+  /*I changed color opacity using rgba*/
+    color: rgba(0,0,0,0.9);
 }
 
 .container {
@@ -88,6 +122,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    font-size: 1.7rem;
 }
 
 .middle-content h2 {
@@ -101,6 +136,7 @@ p {
     justify-content: space-evenly;
 }
 
+/* I reset this code because Im going to use color for each box
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -110,8 +146,127 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 
+.middle-content .box-1 {
+    width: 12.5%;
+      height: 100px;
+      background: black;
+      margin: 20px 2.5%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: teal;
+  }
+  
+  .middle-content .box-2 {
+    width: 12.5%;
+      height: 100px;
+      background: black;
+      margin: 20px 2.5%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: gold;
+  }
+  
+  .middle-content .box-3 {
+    width: 12.5%;
+      height: 100px;
+      background: black;
+      margin: 20px 2.5%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: cadetblue;
+  }
+  
+  .middle-content .box-4 {
+    width: 12.5%;
+      height: 100px;
+      background: black;
+      margin: 20px 2.5%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: coral;
+  }
+  
+  .middle-content .box-5 {
+    width: 12.5%;
+      height: 100px;
+      background: black;
+      margin: 20px 2.5%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: crimson;
+  }
+  
+  .middle-content .box-6 {
+    width: 12.5%;
+      height: 100px;
+      background: black;
+      margin: 20px 2.5%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: forestgreen;
+  }
+  
+  .middle-content .box-7 {
+    width: 12.5%;
+      height: 100px;
+      background: black;
+      margin: 20px 2.5%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: darkorchid;
+  }
+  
+  .middle-content .box-8 {
+    width: 12.5%;
+      height: 100px;
+      background: black;
+      margin: 20px 2.5%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: hotpink;
+  }
+  
+  .middle-content .box-9 {
+    width: 12.5%;
+      height: 100px;
+      background: black;
+      margin: 20px 2.5%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: indigo;
+  }
+  
+  .middle-content .box-10 {
+    width: 12.5%;
+      height: 100px;
+      background: black;
+      margin: 20px 2.5%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: dodgerblue;
+  }
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +299,119 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*here I will design for screen of 500px, also I choose for each style  the unit of rem beacuse this unit is preferred for coding. */
+@media (max-width: 500px) {
+  
+    header nav {
+       display: flex;
+       flex-direction: column;
+       margin: 1%;
+      margin-top: -38%;
+   }
+   
+   /*This will make product tab dissapear*/
+   #dissapear {
+     display: none;
+   }
+   header nav .logo {
+     margin-bottom: 80%;
+     height: 50%;
+ }
+   header nav .logo img {
+     max-width: 240%;
+   margin-left: -78%;
+    }
+   header nav a {
+  border: 1px solid grey;
+     border-radius: 5px;
+     font-size: 1.2rem;
+     width: 350%;
+     height: 150%;
+     text-align: center;
+     margin: 0;
+  }
+   
+   header nav a:hover {
+     background-color: gray;
+     font-size: 1.4rem;
+   }
+ 
+ header .top-image {
+   padding-bottom: 3%;
+ }
+   header .top-image img {
+   margin-top: -45%;
+     display: flex;
+     width: 30%;
+     height: 110px;
+     margin-left: 35%;
+ }
+   .middle-content .box-5 {
+     display: none;
+   }
+   
+   .middle-content .box-6 {
+     display: none;
+   }
+   
+   .middle-content .box-7 {
+     display: none;
+   }
+   
+   .middle-content .box-8 {
+     display: none;
+   }
+   
+   .middle-content .box-9 {
+     display: none;
+   }
+   
+   .middle-content .box-10 {
+     display: none;
+   }
+   
+   
+   
+   .bottom-content {
+     display: none;
+   }
+   
+   .top-content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 20%;
+     margin-top: 0;
+     border-bottom: 2px dotted rgba(0,0,0,0.6);
+   }
+   .top-content .text-container p {
+     font-size: 1.3rem;
+     color: rgba(0,0,0,0.6);
+   }
+    h2 {
+     font-size: 1.8rem;
+      
+   }
+   
+   .middle-content .boxes {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-bottom: 1px dotted rgba(0,0,0,0.6);
+     
+   }
+   .middle-content h2 {
+     text-align: center;
+     margin-top: -16%;
+     
+     
+   }
+  footer {
+     display: none;
+   }
+   
+   
+ }
