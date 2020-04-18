@@ -32,14 +32,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+I will say that semantic HTML is the way to write HMTL with meaning, and not only as a presentation.  It helps to be very accessible, and make it easy for collaborator to understand it.
 
 2. What are the 4 areas of the box model?
+They are the margin, the border, the padding, and the content(height, and width) 
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+6. Align-items: center defines the behavior on how items are laid out along the cross axis
 
 4. Explain why git is valuable to a team of developers.
+8. Git is valuable to a team of developers because it makes their life better, and it save them a lot of time.  For example, while I can create a repository, or I can fork a work from another collaborator, We can work simultaneously on the project, and not getting worried  that we are going to mess up the project .  Each collaborator can save the project his own version with messages saying what they did to the project so it saves time, and it’s organized when working in big projects.
 
 5. Define mobile-first design in your own words.
+11. Mobile first design is a method that web developers use that helps to design webpages to fit the screen of different devices.  So every time a user sees the webpage design in a different screen, it doesn’t looks bad, and it looks good so it makes the user comfortable. First design means that the mobile is designed first. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
